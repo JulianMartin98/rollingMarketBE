@@ -1,6 +1,10 @@
 import express from 'express';
+import { PORT } from './config/config.js';
 import morgan from 'morgan';
 import cors from 'cors'
+import "./db/db_connection.js"
+import productroute from './routes/product.routes.js'
+
 // import { PORT } from './config/config.js';
 // import TestRoutes from './routes/test.routes.js'
 
@@ -8,6 +12,14 @@ const app = express()
 
 app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
+app.use(express.json());
+
+
+app.listen(PORT, async()=>{
+  console.log('La app esta escuchando el puerto')
+})
+
+app.use("/api",productroute)
 
 // app.use(TestRoutes)
 
