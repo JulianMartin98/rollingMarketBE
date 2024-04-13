@@ -14,14 +14,14 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
 
 ### ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 
-  1. Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
+**1_** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
 
   ```
 <img src= "https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif"></img>
-  
-  2. Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
 
   ```
+
+**2_** Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
 <img src="">
   
   3. **Dentro** de la carpeta que creaste en el **paso (1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
