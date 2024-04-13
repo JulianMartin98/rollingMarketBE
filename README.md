@@ -74,6 +74,8 @@ RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por
 
 * **Ignacio Skibski** - *-FrontEnd-BackEnd* - https://github.com/nachoo07 | 
 
+---
+---
 
 ## Expresiones de Gratitud 🎁❤️ <a name="agradecimientos"></a>
 
