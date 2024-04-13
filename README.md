@@ -1,6 +1,6 @@
 # 🛒 RollingMarket 🛒 <!-- <a name="informacion"></a> -->
 
-_En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
+##En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
 
 
 ## 📃 Nuestro Indice 📃
@@ -14,7 +14,7 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
 
 ## Comenzando 🚀 <a name="requisitos-instalacion"></a>
 
-  Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el Equipo de desarrollo de **rollingMarket**.
+  ### Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el Equipo de desarrollo de **rollingMarket**.
 
 
 # ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
