@@ -56,12 +56,12 @@ _Nuestro deploy_:
 
 ## Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
 
-_Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:_  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
+Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:_  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
 
 
 ## Autores ✒️ <a name="integrantes"></a>
 
-_RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por_:
+RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por_:
 
 
 * **Julián Martín** - *Documentacion-FrontEnd-BackEnd* - https://github.com/JulianMartin98 | https://www.linkedin.com/in/julian-martin-9903aa1ba/
@@ -77,7 +77,7 @@ _RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado po
 
 ## Expresiones de Gratitud 🎁❤️ <a name="agradecimientos"></a>
 
-_Por ultimo pero no menos importante, no queriamos dejar de lado a todas esas personas que nos brindaron su ayuda y estuvieron presente durante todo el proceso de desarrollo de nuestro proyecto._
+Por ultimo pero no menos importante, no queriamos dejar de lado a todas esas personas que nos brindaron su ayuda y estuvieron presente durante todo el proceso de desarrollo de nuestro proyecto._
 
 
 * A la academia **RollingCode** por brindarnos esta beca y la posiblidad de acceder 
