@@ -19,12 +19,13 @@ _Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en t
 
 ### ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 
-  - 1. Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
+   - 1. Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
 
   ```
-<img src="https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif">
+<img src= "https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif"></img>
+
   ```
-  - 2. Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
+   - 2. Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
 
   ```
   <img src="">
@@ -74,7 +75,7 @@ _Nuestro deploy_:
 _Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:_  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
 
 
-## Autores ✒️ <a name="integrantes"></a> [Nuestro Equipo]
+## Autores ✒️ <a name="integrantes"></a>
 
 _RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por_:
 
