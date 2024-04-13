@@ -21,8 +21,14 @@ _Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en t
 
 **1_** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
 
-``` 
+```
+
+
+
 <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/1CreandoCarpeta.gif"></img>
+
+
+
 
 ```
 
