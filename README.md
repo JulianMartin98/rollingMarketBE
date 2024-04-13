@@ -27,7 +27,7 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
   <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/2IngresandoARepo.gif"></img>
   
 
-  ### 3_ Dentro** de la carpeta que creaste en el **paso-(1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
+  ### 3_ Dentro de la carpeta que creaste en el **paso-(1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
   <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/3IngresandoTerminal.gif"></img>
   
   
