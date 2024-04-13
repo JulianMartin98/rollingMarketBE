@@ -8,7 +8,7 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
 * [Información del proyecto](#informacion)
 * [Tecnologías utilizadas](#tecnologias)
 * [Nuestro Equipo](#integrantes)
-* [Agradecimientos] (#agradecimientos)
+* [Agradecimientos](#agradecimientos)
 
 
 
