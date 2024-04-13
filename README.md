@@ -12,22 +12,28 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
 
 
 
+## Comenzando 🚀 <a name="requisitos-instalacion"></a>
+
+_Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
+
+
 ### ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 
 **1_** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto. (_preferentemente que inicie con minuscula_)
 
-  ```
-<img src= "https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif"></img>
-
-  ```
+<img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/1CreandoCarpeta.gif"></img>
 
 **2_** Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
-<img src="">
   
-  3. **Dentro** de la carpeta que creaste en el **paso (1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
+<img src= "https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif"></img>
+
+
+  
+3. **Dentro** de la carpeta que creaste en el **paso (1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
   
   ```
-  <img src="">
+<img src= "https://i.ibb.co/dp7B2zM/1-Creando-Carpeta.gif"></img>
+  ```
 
   4. Utiliza el comando **git clone** seguido de la _URL_ que copiaste anteriormente. (__Ejemplo__: git clone https://github.com/alamodeg/rollingMarket)
 
