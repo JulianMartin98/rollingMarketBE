@@ -1,6 +1,6 @@
 # 🛒 RollingMarket 🛒 <!-- <a name="informacion"></a> -->
 
-##En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
+## En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
 
 
 ## 📃 Nuestro Indice 📃
