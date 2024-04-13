@@ -7,14 +7,14 @@ _En esta plataforma hemos creado un diseño sencillo pero encantador, pensado pa
 * [Requisitos e Instalación](#requisitos-instalacion)
 * [Información del proyecto](#informacion)
 * [Tecnologías utilizadas](#tecnologias)
-* [Nuestro Equipo](#integrantes)
+* [Integrantes](#integrantes)
 * [Agradecimientos](#agradecimientos)
 
 
 
 ## Comenzando 🚀 <a name="requisitos-instalacion"></a>
 
-  Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
+  Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el Equipo de desarrollo de **rollingMarket**.
 
 
 # ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
@@ -48,11 +48,6 @@ _Nuestro deploy_:
 <!-- insetar link del deploy -->
 
 ## Construido con 🛠️  <a name="tecnologias"></a>
-
-
-<!-- * [HTML](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [CSS](https://maven.apache.org/) - Manejador de dependencias
-* [REACT](https://es.react.dev/) - Usado para generar RSS -->
 
 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
