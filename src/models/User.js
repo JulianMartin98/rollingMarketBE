@@ -22,19 +22,18 @@ const userSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      maxLength: [20, 'the field name must have a maximun of 100 characters'],
     },
 
     password: {
       type: String,
       required: true,
       minLength: [3, 'the field name must have at least 3 characters'],
-      maxLength: [100, 'the field name must have a maximun of 100 characters'],
+      maxLength: [20, 'the field name must have a maximun of 20 characters'],
     },
 
     rol: {
       type: String,
-      enum: ['admin', 'usuario'],
+      enum: ['admin', 'usuario'],   //revisar
       default: 'usuario'
     },
   },
