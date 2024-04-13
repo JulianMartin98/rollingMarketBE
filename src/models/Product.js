@@ -27,15 +27,15 @@ const productSchema = new Schema(
 			type: Number,
 			// required: true,
 			// min: [1, 'The min price is 1 , and you enter ${VALUE}'],
-			// default: 1,
+			default: 1,
 		},
 		image: {
 			type: String,
-			// match: [
-			// 	/^.*\.(jpg|jpeg|png|gif|bmp)$/i,
-			// 	'Please provide a valid image path',
-			// ],
-			// default: 'https://i.imgur.com/I03y2Ec.png',
+			match: [
+				/^.*\.(jpg|jpeg|png|gif|bmp)$/i,
+				'Please provide a valid image path',
+			],
+			default: 'https://i.imgur.com/I03y2Ec.png',
 		},
 	},
 	{
