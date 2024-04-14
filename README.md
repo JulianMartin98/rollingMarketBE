@@ -56,7 +56,7 @@ _Nuestro deploy_:
 
 ## ¿Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
 
-Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:  <a name="integrantes">**Equipo de desarrollode **rollingMarket**. **</a>
+Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:  **<a name="integrantes">Equipo de desarrollo de rollingMarket.</a>**
 
 
 ## Autores ✒️ <a name="integrantes"></a>
