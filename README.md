@@ -54,9 +54,9 @@ _Nuestro deploy_:
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-## Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
+## ¿Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
 
-Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:_  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
+Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:  <a name="integrantes">**Equipo de desarrollode **rollingMarket**. **</a>
 
 
 ## Autores ✒️ <a name="integrantes"></a>
