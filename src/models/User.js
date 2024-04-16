@@ -17,6 +17,13 @@ const userSchema = new Schema(
       minLength: [3, 'the field name must have at least 3 characters'],
       maxLength: [100, 'the field name must have a maximun of 100 characters'],
     },
+    
+    surname: {
+      type: String,
+      required: true,
+      minLength: [3, 'the field name must have at least 3 characters'],
+      maxLength: [100, 'the field name must have a maximun of 100 characters'],
+    },
 
     email: {
       type: String,
