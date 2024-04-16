@@ -18,7 +18,7 @@ const userSchema = new Schema(
       maxLength: [100, 'the field name must have a maximun of 100 characters'],
     },
 
-    correoElectronico: {
+    email: {
       type: String,
       required: true,
       unique: true,
