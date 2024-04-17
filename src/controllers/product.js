@@ -66,3 +66,14 @@ export async function UpdateProduct (req, res)  {
     console.log("error")
   }
 };
+
+export async function GetProductByCategory (req, res)  {
+  try {
+    const {category} = req.params
+    const product = await ProductModel.find({category: category})
+    return res.status(200).json(product)
+
+  } catch (error) {
+    res.status(500).json({message: error.message})
+  }
+};
