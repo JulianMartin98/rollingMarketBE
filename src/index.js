@@ -13,13 +13,13 @@ const app = express()
 app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
 app.use(express.json());
-
+app.use(productroute)
 
 app.listen(PORT, async()=>{
-  console.log('La app esta escuchando el puerto')
+  console.log('La app esta escuchando el puerto ' + PORT)
 })
 
-app.use("/api",productroute)
+//app.use("/api",productroute)
 
 // app.use(TestRoutes)
 
