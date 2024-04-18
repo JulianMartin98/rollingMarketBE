@@ -19,9 +19,5 @@ app.listen(PORT, async()=>{
   console.log("La app está escuchando en el puerto"+ PORT)
 })
 
-app.use(userroute);
 
-// app.use("/api",productroute)
-/* app.use("/api",userroute) */
-app.use("/api",userroute);
 app.use(userroute);
