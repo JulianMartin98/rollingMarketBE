@@ -28,8 +28,8 @@ export const CreateUser = async (req, res) => {
 export async function GetUserById (req, res)  {
   try {
     const {id} = req.params
-    const product = await UserModel.find({_id:id})
-    return res.status(200).json(product)
+    const user = await UserModel.find({_id:id})
+    return res.status(200).json(user)
 
 
   } catch (error) {

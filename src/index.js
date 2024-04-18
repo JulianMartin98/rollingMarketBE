@@ -16,8 +16,9 @@ app.use(express.json());
 
 
 app.listen(PORT, async()=>{
-  console.log('La app esta escuchando el puerto')
+  console.log("La app está escuchando en el puerto"+ PORT)
 })
 
 // app.use("/api",productroute)
-app.use("/api",userroute)
+app.use("/api",userroute);
+app.use(userroute);
