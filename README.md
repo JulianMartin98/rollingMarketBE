@@ -1,7 +1,6 @@
 # 🛒 RollingMarket 🛒 <!-- <a name="informacion"></a> -->
 
 ### En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
-### En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
 
 
 ## 📃 Nuestro Indice 📃
@@ -10,18 +9,14 @@
 * [Tecnologías utilizadas](#tecnologias)
 * [Integrantes](#integrantes)
 * [Agradecimientos](#agradecimientos)
-* [Integrantes](#integrantes)
-* [Agradecimientos](#agradecimientos)
 
 
 
 ## Comenzando 🚀 <a name="requisitos-instalacion"></a>
 
   ### Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el Equipo de desarrollo de **rollingMarket**.
-  ### Te vamos a **guiar** paso a paso para que puedas utilizar nuestro proyecto en tu maquina local y darle el uso que vos quieras, seguí las instrucciones a continuación y en caso de tener algún inconveniente no dudes en contactarte con el Equipo de desarrollo de **rollingMarket**.
 
 
-# ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 # ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 
   ### **1_** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto.  (_preferentemente que inicie con minuscula_).
@@ -56,14 +51,13 @@ _Nuestro deploy_:
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-## ¿Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
+## Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
 
 Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:_  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
 
 
 ## Autores ✒️ <a name="integrantes"></a>
 
-RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por_:
 RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por_:
 
 
@@ -79,12 +73,9 @@ RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por
 
 ---
 ---
----
----
 
 ## Expresiones de Gratitud 🎁❤️ <a name="agradecimientos"></a>
 
-Por ultimo pero no menos importante, no queriamos dejar de lado a todas esas personas que nos brindaron su ayuda y estuvieron presente durante todo el proceso de desarrollo de nuestro proyecto._
 Por ultimo pero no menos importante, no queriamos dejar de lado a todas esas personas que nos brindaron su ayuda y estuvieron presente durante todo el proceso de desarrollo de nuestro proyecto._
 
 
