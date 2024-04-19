@@ -16,7 +16,7 @@ app.use(express.json());
 
 
 app.listen(PORT, async()=>{
-  console.log("La app está escuchando en el puerto"+ PORT)
+  console.log("La app está escuchando en el puerto"+" "+ PORT)
 })
 
 
