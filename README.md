@@ -1,9 +1,16 @@
-# 🛒 RollingMarket 🛒 <!-- <a name="informacion"></a> -->
+<div align="center">
+<h1 align="center"> 🛒 RollingMarket 🛒 </h1> <a name="inicio"></a>
 
-### En esta plataforma hemos creado un diseño sencillo pero encantador, pensado para hacer más **amigable** y **eficiente** nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos **facilitar la gestión y colaboración dentro de nuestro negocio**. ¡Explora y disfruta de esta nueva experiencia digital!"
+### En esta plataforma creamos un diseño sencillo pero encantador, pensado para hacer más amigable y eficiente nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos facilitar la gestión y colaboración dentro de tu negocio. ¡Explora y disfruta de esta nueva experiencia digital.
+
+<p align="center"><img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/FotoPresentacion.png"/></p> 
+
+</div>
+
 
 
 ## 📃 Nuestro Indice 📃
+* [Bienvenida](#inicio)
 * [Requisitos e Instalación](#requisitos-instalacion)
 * [Información del proyecto](#informacion)
 * [Tecnologías utilizadas](#tecnologias)
@@ -19,24 +26,26 @@
 
 # ¿Cómo se hace una copia de esté proyecto? 🖨️ <a name="requisitos-instalacion"></a>
 
-  ### **1** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto.  (_preferentemente que inicie con minuscula_).
-  <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/1CreandoCarpeta.gif"></img>
+
+  #### **1** Desde tu computadora, crea una carpeta donde vas a almacenar nuestro proyecto.  (_preferentemente que inicie con minuscula_).
+  <img src= "https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/1TestResize.gif"></img>
+
+
+  #### **2** Ingresa a nuestro repositorio en github y copia el link del repo https://github.com/JulianMartin98/rollingMarketBE.
+  <img src= "https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/2IngresandoARepo-ezgif.com-resize.gif"></img>
   
 
-  ### **2** Ingresa a nuestro repositorio en github: https://github.com/alamodeg/rollingMarket y copia el link de nuestro repositorio.
-  <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/2IngresandoARepo.gif"></img>
-  
-
-  ### 3 Dentro de la carpeta que creaste en el **paso-(1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
-  <img src= "https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/3IngresandoTerminal.gif"></img>
+  #### 3 Dentro de la carpeta que creaste en el **paso (1)** hace click derecho y ejecuta cualquier consola de tu preferencia, sea CMD-GitBash-PowerShell-Etc. (**Recomendamos** utilizar **_Git Bash_**").
+  <img src= "https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/3IngresandoTerminal-ezgif.com-resize.gif"></img>
   
   
-  ### 4. Utiliza el comando **git clone** seguido de la _URL_ que copiaste anteriormente. (__Ejemplo__: git clone https://github.com/alamodeg/rollingMarket). Presiona **Enter** y se descargará automáticamente el repositorio en tu máquina local.
-  <img src="https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/4ClonandoRepo.gif"></img>
+  #### 4. Utiliza el comando **git clone** seguido de la _URL_ que copiaste anteriormente. (__Ejemplo__: git clone https://github.com/JulianMartin98/rollingMarketBE.git). Presiona **Enter** y se descargará automáticamente el repositorio en tu máquina local.
+  <img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/4ClonandoRepo-ezgif.com-resize.gif"></img>
 
   
-  ### 6. ¡Ya casi estamos! Una vez clonado nuestro proyecto, tenes que colocar **npm i** en la terminal del Visual, de esta forma instalas todos los paquetes y librerias necesari@s para utilizar nuestro sistema.
-  <img src="https://github.com/alamodeg/rollingMarket/blob/dev/src/assets/img/gifREADME/6InstalandoNPM.gif"></img>
+  #### 6. ¡Ya casi estamos! Una vez clonado nuestro proyecto, debes ingresar el comando "**npm i**" en la terminal del VisualStudio, de esta forma instalas todos los paquetes y librerias necesari@s para utilizar nuestro sistema.
+
+  <img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/6InstalandoNPM-ezgif.com-resize.gif"></img>
 
 
 ## Despliegue 📦  <a name="informacion"></a>
@@ -46,20 +55,23 @@ _Nuestro deploy_:
 
 ## Construido con 🛠️  <a name="tecnologias"></a>
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-
-## ¿Te quedaron dudas o tenes alguna consulta? 📖 <a name="integrantes"></a>
-
-Comunicate con nuestro equipo de desarrollo y resolve todas tus inquietudes:  <a name="integrantes">**_Equipo de desarrollo_**</a> de **rollingMarket**.
+<div align="center">
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
+	<img width="50" src="https://github-production-user-asset-6210df.s3.amazonaws.com/62091613/261395532-b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35.png" alt="Vite" title="Vite"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" alt="Postman" title="Postman"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="mongoDB" title="mongoDB"/>
+</div>
 
 
 ## Autores ✒️ <a name="integrantes"></a>
 
-RollingMarket fue posible gracias a nuestro equipo de desarrollo, conformado por:
+RollingMarket no seria posible sin nuestro equipo de desarrollo, conocenos:
 
 
 * **Julián Martín** | *[Documentacion FrontEnd BackEnd]* | https://github.com/JulianMartin98 | https://www.linkedin.com/in/julian-martin-9903aa1ba/
