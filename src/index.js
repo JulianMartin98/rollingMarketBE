@@ -21,3 +21,8 @@ app.listen(PORT, async()=>{
 
 
 app.use(userroute);
+
+app.get("/",(req, res) => {
+
+  res.send("Bienvenido a la API de usuarios")
+})
