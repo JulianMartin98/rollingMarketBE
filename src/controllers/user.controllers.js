@@ -11,7 +11,7 @@ export async function GetAllUsers(req, res) {
   }
 }
 
-export const LoginUser = async (req, res) => {
+/* export const LoginUser = async (req, res) => {
   const { email, password } = req.body;
 
   try {
@@ -34,7 +34,46 @@ export const LoginUser = async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
-};
+}; */
+
+export const LoginUser = async (req, res) => {
+
+  try {
+    const {email, password} = req.body; //se captura el correo y contraseña.
+    if (!email || !password) {
+
+      return res.status(400).json({ message: "No se aceptan campos vacíos"});
+    }
+    const user = await UserModel.findOne({email});
+
+    if (!user) {
+      return res.status(400).json({ message:"Usuario o Contraseña no válido." });
+    }
+    const validPassword = await bcrypt.compare(password, user.password);
+
+    if (!validPassword) {
+      return res.status(400).json({ message: "Usuario o Contraseña no válido." });
+    }
+
+    const token = jwt.sign({
+
+      id:user._id,
+      email:user._email,
+      nombre:user.name,
+      surname:user.surname,
+    },
+
+    process.env.JWT_SECRET, {
+      expiresIn: "1h"
+      });
+
+    res.header(token).json({message: "Su Token es el siguiente: ", token});
+    
+  } catch (error) {
+    return res.status(500).json({ message: "Falla en el servidor." });
+  }
+
+}
 
 export const CreateUser = async (req, res) => {
   const { name, surname, email, password, rol } = req.body;
