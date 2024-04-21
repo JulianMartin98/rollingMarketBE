@@ -1,20 +1,27 @@
 import jwt from "jsonwebtoken";
 
 const comprobarJWT = (req, res, next) => {
+    try {
+        const token = req.headers.authorization;
 
-    const token = req.headers.authorization
+        if (!token) {
+            return res.status(401).json({ message: "No posee un token" });
+        }
 
-    if (!token) {
-        return res.status(401).json({messagge: "No posee un token"})
+        jwt.verify(token, process.env.JWT_SECRET, (error, verificarToken) => {
+            if (error) {
+                return res.status(401).json({ message: "Token inválido " });
+            }
+
+            if (verificarToken.rol === "admin") {
+                next();
+            } else {
+                return res.status(401).json({ message: "No tiene los permisos necesarios para acceder a esta ruta" });
+            }
+        });
+    } catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
     }
-
-    const verificarToken = jwt.verify(token, process.env.JWT_SECRET); //se verifica si el token tiene la clave secreta
-
-    if(verificarToken.admin) {
-        next();
-    }else {
-        return res.status(401).json({messagge:"No tiene los permisos necesarios"});
-    }
-}
+};
 
 export default comprobarJWT;

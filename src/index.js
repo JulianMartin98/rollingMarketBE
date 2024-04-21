@@ -6,6 +6,7 @@ import "./db/db_connection.js"
 // import productroute from './routes/product.routes.js'
 import userroute from './routes/user.routes.js'
 import privateRouter from "./routes/private.routes.js"
+import verifyJWT from "./middlewares/verifyJWT.js";
 
 
 const app = express()
@@ -21,4 +22,4 @@ app.listen(PORT, async()=>{
 
 
 app.use(userroute);
-app.use("/api",privateRouter)
+app.use(verifyJWT, privateRouter);
