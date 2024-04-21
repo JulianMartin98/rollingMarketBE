@@ -27,7 +27,7 @@ export const CreateProduct = async (req, res) => {
 
 
   } catch (error) {
-    console.log("error",error)
+    console.log(error)
   }
 //try {
   //const newProduct = await productos.create({
@@ -89,6 +89,6 @@ export async function UpdateProduct (req, res)  {
 
 
   } catch (error) {
-    console.log("error")
+    console.log(error)
   }
 };
