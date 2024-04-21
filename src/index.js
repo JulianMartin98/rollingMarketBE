@@ -5,7 +5,8 @@ import cors from 'cors'
 import "./db/db_connection.js"
 // import productroute from './routes/product.routes.js'
 import userroute from './routes/user.routes.js'
-
+import privateRouter from "./routes/private.routes.js"
+import verifyJWT from "./middlewares/verifyJWT.js";
 
 
 const app = express()
@@ -21,8 +22,4 @@ app.listen(PORT, async()=>{
 
 
 app.use(userroute);
-
-app.get("/",(req, res) => {
-
-  res.send("Bienvenido a la API de usuarios")
-})
+app.use(verifyJWT, privateRouter);
