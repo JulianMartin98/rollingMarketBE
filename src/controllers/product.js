@@ -73,7 +73,7 @@ export async function DeleteProduct (req, res)  {
 
 
   } catch (error) {
-    console.log("error")
+    console.log(error)
   }
 };
 
