@@ -25,9 +25,9 @@ console.log(`La app esta escuchando el puerto ${PORT}`)
 // app.use(TestRoutes)
 
 
-//app.get("/productos", async(req,res)=>{
-  //res.send("Hello desde productos")
-//})
+app.get("/", async(req,res)=>{
+  res.send("bienvenido a la API de productos")
+})
 
  //app.get("/", async(req,res)=>{
   // res.send("Hello World")
