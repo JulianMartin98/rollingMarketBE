@@ -9,6 +9,7 @@ import privateRouter from "./routes/private.routes.js"
 import verifyJWT from "./middlewares/verifyJWT.js";
 
 
+
 const app = express()
 
 app.use(morgan("dev")) //da mas informacion de la solicitud.
@@ -19,7 +20,6 @@ app.use(express.json());
 app.listen(PORT, async()=>{
   console.log("La app está escuchando en el puerto"+" "+ PORT)
 })
-
 
 app.use(userroute);
 app.use(verifyJWT, privateRouter);
