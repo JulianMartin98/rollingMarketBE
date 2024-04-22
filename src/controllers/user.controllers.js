@@ -11,31 +11,6 @@ export async function GetAllUsers(req, res) {
   }
 }
 
-/* export const LoginUser = async (req, res) => {
-  const { email, password } = req.body;
-
-  try {
-    const user = await UserModel.findOne({ email });
-
-    if (!user) {
-      return res.status(404).json({ message: "Usuario no encontrado" });
-    }
-
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
-      return res.status(401).json({ message: "Contraseña incorrecta" });
-    }
-
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
-      expiresIn: "1h"
-    });
-
-    res.status(200).json({ token });
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-}; */
-
 export const LoginUser = async (req, res) => {
 
   try {
