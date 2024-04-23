@@ -22,9 +22,9 @@ app.use(verifyJWT, privateRouter);
 
 
 
-app.get("/", async (req, res) => {
-  res.send("bienvenido a la API de productos")
-})
+// app.get("/", async (req, res) => {
+//   res.send("bienvenido a la API de productos")
+// })
 
 
 
