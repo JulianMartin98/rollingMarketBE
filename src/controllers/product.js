@@ -6,9 +6,8 @@ export async function GetAllProducts  (req, res)  {
     const products = await ProductModel.find()
     return res.status(200).json(products)
 
-
   } catch (error) {
-    console.log(error)
+    res.status(500).json({message: error.message})
   }
 };
 
@@ -22,7 +21,7 @@ export const CreateProduct = async (req, res) => {
 
 
   } catch (error) {
-    console.log(error)
+    res.status(500).json({message: error.message})
   }
 
 }
@@ -47,7 +46,7 @@ export async function GetProductById (req, res)  {
     return res.status(200).json(product)
 
   } catch (error) {
-   console.log(error)
+    res.status(500).json({message: error.message})
   }
 };
 
@@ -58,7 +57,7 @@ export async function DeleteProduct (req, res)  {
     return res.status(200).json("producto borrado exitosamente")
 
   } catch (error) {
-    console.log(error)
+    res.status(500).json({message: error.message})
   }
 };
 
