@@ -6,7 +6,7 @@ import "./db/db_connection.js"
 import productroute from './routes/product.routes.js'
 import userroute from './routes/user.routes.js'
 import privateRouter from "./routes/private.routes.js"
-import verifyJWT from "./middlewares/verifyJWT.js";
+import comprobarJWT from "./middlewares/verifyJWT.js";
 
 
 
@@ -19,7 +19,7 @@ app.use(cors()) //para que no revoten las peticiones.
 
 app.use(productroute);
 app.use(userroute);
-app.use(verifyJWT, privateRouter);  //enviar antes de los productos y usuarios para proteger rutas?
+app.use(privateRouter);  //enviar antes de los productos y usuarios para proteger rutas?
 
 
 
