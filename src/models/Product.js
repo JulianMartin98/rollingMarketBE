@@ -36,7 +36,10 @@ const productSchema = new Schema(
 		},
 		image: {
 			type: String,
-			default: 'https://i.imgur.com/I03y2Ec.png',
+			match: [
+				/^(https?:\/\/.*\.(?:png|jpg|jpeg|gif|bmp))(?:\?\S*)?$/i,
+				'Please provide a valid image URL',
+			],
 		},
 	},
 	{
