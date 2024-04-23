@@ -28,8 +28,8 @@ export const CreateProduct = async (req, res) => {
 
 export async function GetProductByCategory (req, res)  {
   try {
-    const {category} = req.params
-    const product = await ProductModel.find({category: category})
+    const {categoria} = req.params
+    const product = await ProductModel.find({category: categoria})
     return res.status(200).json(product)
 
   } catch (error) {
@@ -54,7 +54,7 @@ export async function DeleteProduct (req, res)  {
   try {
     const {id} = req.params
     const product = await ProductModel.deleteOne({_id:id})
-    return res.status(200).json("producto borrado exitosamente")
+    return res.status(200).json(product) //verificar
 
   } catch (error) {
     res.status(500).json({message: error.message})
