@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/admin", (req, res) => {
 
-    res.json ({message:"Sitio de Administrador", user: req.user});
+    res.json ({message:"Sitio de Administrador"});
 
 });
 

@@ -61,13 +61,14 @@ export const LoginUser = async (req, res) => {
       email:user.email,
       name:user.name,
       surname:user.surname,
+      rol:user.rol
     },
 
     process.env.JWT_SECRET, {
       expiresIn: "1h"
       });
 
-    res.header(token).json({message: "Su Token es el siguiente: ", token});
+      res.json({ message: "Su Token es el siguiente:", token });
     
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
