@@ -1,5 +1,6 @@
 import express from 'express';
 import { PORT } from './config/config.js';
+import { PORT } from './config/config.js';
 import morgan from 'morgan';
 import cors from 'cors'
 import "./db/db_connection.js"
@@ -12,9 +13,12 @@ import verifyJWT from "./middlewares/verifyJWT.js";
 
 const app = express()
 
+app.use(express.json());
 app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
-app.use(express.json());
+
+app.use(productroute)
+
 
 
 app.listen(PORT, async()=>{
