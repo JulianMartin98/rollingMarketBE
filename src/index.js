@@ -17,9 +17,10 @@ app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
 
 app.use(productroute);
-// app.use(userroute);
+app.use(userroute);
+app.use(verifyJWT, privateRouter);
+// app.use("/users", userroute);
 // app.use(verifyJWT, privateRouter);
-app.use("/users", verifyJWT, userroute);
 
 
 
