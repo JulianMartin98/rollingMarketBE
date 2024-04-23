@@ -18,7 +18,7 @@ const productSchema = new Schema(
 		category: {
 			type: String,
 			required: [true, "The field category is required"],
-			enum : ["Bebidas", "Herramientas", "Limpieza", "Lácteos", "Otros"],
+			enum : ["Bebidas", "Herramientas", "Limpieza", "Lacteos", "Otros"],
 		},
 		price: {
 			type: Number,
