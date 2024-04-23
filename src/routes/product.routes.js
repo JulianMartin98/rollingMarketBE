@@ -2,9 +2,6 @@ import { Router } from "express";
 import { CreateProduct, DeleteProduct, GetAllProducts, GetProductById, UpdateProduct } from "../controllers/product.js";
 
 const router = Router()
-// asdad
-
-
 
 router.get("/productos",GetAllProducts);
 router.post("/product",CreateProduct);
