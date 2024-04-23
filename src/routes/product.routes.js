@@ -4,7 +4,7 @@ import { CreateProduct, DeleteProduct, GetAllProducts, GetProductById, UpdatePro
 const router = Router()
 
 router.get("/productos",GetAllProducts);
-router.post("/product",CreateProduct);
+router.post("/productos",CreateProduct);
 router.get("/producto/:id",GetProductById);
 router.delete("/producto/delete/:id",DeleteProduct);
 router.put("/producto/update/:id",UpdateProduct);
