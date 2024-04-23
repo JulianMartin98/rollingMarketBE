@@ -3,12 +3,12 @@ import { CreateUser, DeleteUser, GetAllUsers, GetUserById, UpdateUser, LoginUser
 
 const router = Router()
 
-router.get("/usuarios",GetAllUsers);
-router.post("/usuario",CreateUser);
-router.get("/usuario/:id",GetUserById);
-router.delete("/usuario/delete/:id",DeleteUser);
-router.put("/usuario/update/:id",UpdateUser);
-router.post("/login/",LoginUser);
+router.get("/api/usuarios",GetAllUsers);
+router.post("/api/usuario",CreateUser);
+router.get("/api/usuario/:id",GetUserById);
+router.delete("/api/usuario/delete/:id",DeleteUser);
+router.put("/api/usuario/update/:id",UpdateUser);
+router.post("/api/login/",LoginUser);
 
 
 

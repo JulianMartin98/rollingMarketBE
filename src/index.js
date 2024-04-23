@@ -17,21 +17,17 @@ app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
 
 app.use(productroute);
-app.use(userroute);
 app.use(verifyJWT, privateRouter);
-// app.use("/users", userroute);
-// app.use(verifyJWT, privateRouter);
+app.use(userroute);
 
 
-
-// app.get("/", async (req, res) => {
-//   res.send("bienvenido a la API de productos")
-// })
-
+app.get("/", async(req,res)=>{
+  res.send("bienvenido a la API")
+})
 
 
 app.listen(PORT, async () => {
-  console.log("La app está escuchando en el puertoo" + " " + PORT)
+  console.log("La app está escuchando en el puerto" + " " + PORT)
 })
 
 
