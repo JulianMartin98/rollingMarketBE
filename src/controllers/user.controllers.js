@@ -14,7 +14,7 @@ export async function GetAllUsers(req, res) {
 export const LoginUser = async (req, res) => {
 
   try {
-    const {email, password} = req.body; //se captura el correo y contraseña.
+    const {email, password} = req.body;
     if (!email || !password) {
 
       return res.status(400).json({ message: "No se aceptan campos vacíos"});
