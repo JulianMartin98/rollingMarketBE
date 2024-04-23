@@ -16,18 +16,13 @@ app.use(express.json());
 app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
 
+
 app.use(productroute);
-app.use(verifyJWT, privateRouter);
 app.use(userroute);
+app.use(verifyJWT, privateRouter);  //enviar antes de los productos y usuarios para proteger rutas?
 
-
-app.get("/", async(req,res)=>{
-  res.send("bienvenido a la API")
-})
 
 
 app.listen(PORT, async () => {
-  console.log("La app está escuchando en el puerto" + " " + PORT)
-})
-
-
+  console.log("La app está escuchando en el puertoo" + " " + PORT)
+});
