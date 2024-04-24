@@ -1,14 +1,16 @@
-import { Router } from "express";
-import { CreateProduct, DeleteProduct, GetAllProducts, GetProductById, UpdateProduct } from "../controllers/product.js";
+import express from "express";
+import { CreateProduct, DeleteProduct, GetAllProducts, GetProductByCategory, GetProductById, UpdateProduct } from "../controllers/product.js";
 import comprobarJWT from '../middlewares/verifyJWT.js';
 
-const router = Router()
 
-router.get("/productos",comprobarJWT,GetAllProducts);
-router.post("/productos",comprobarJWT,CreateProduct);
-router.get("/producto/:id",comprobarJWT,GetProductById);
-router.delete("/producto/delete/:id",comprobarJWT,DeleteProduct);
-router.put("/producto/update/:id",comprobarJWT,UpdateProduct);
+const router = express.Router();
+
+router.get("/productos",comprobarJWT, GetAllProducts);
+router.post("/product",comprobarJWT, CreateProduct);
+router.get("/producto/:id",comprobarJWT, GetProductById);
+router.delete("/producto/delete/:id",comprobarJWT, DeleteProduct);
+router.put("/producto/update/:id",comprobarJWT, UpdateProduct);
+router.get("/producto/categoria/:categoria",comprobarJWT, GetProductByCategory);
 
 
 export default router;
