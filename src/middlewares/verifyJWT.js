@@ -12,7 +12,7 @@ const comprobarJWT = (req, res, next) => {
             if (error) {
                 return res.status(401).json({ message: "Token inválido " });
             }
-            
+
             if (verificarToken.rol === "admin" || verificarToken.rol === "usuario") {
                 next();
             } else {
