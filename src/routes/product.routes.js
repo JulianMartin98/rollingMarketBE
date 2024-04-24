@@ -1,7 +1,9 @@
-import { router } from "express";
+import express from "express";
 import { CreateProduct, DeleteProduct, GetAllProducts, GetProductByCategory, GetProductById, UpdateProduct } from "../controllers/product.js";
 import comprobarJWT from '../middlewares/verifyJWT.js';
 
+
+const router = express.Router();
 
 router.get("/productos",comprobarJWT, GetAllProducts);
 router.post("/product",comprobarJWT, CreateProduct);
