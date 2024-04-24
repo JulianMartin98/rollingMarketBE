@@ -52,7 +52,7 @@ export const LoginUser = async (req, res) => {
       expiresIn: "1h"
     });
 
-    res.json({ token });
+    res.status(200).json({ token });
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
   }
