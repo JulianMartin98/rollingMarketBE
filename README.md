@@ -1,9 +1,9 @@
 <div align="center">
 <h1 align="center"> 🛒 RollingMarket 🛒 </h1> <a name="inicio"></a>
 
-### En esta plataforma creamos un diseño sencillo pero encantador, pensado para hacer más amigable y eficiente nuestro trabajo diario. Con herramientas intuitivas y un aspecto agradable, buscamos facilitar la gestión y colaboración dentro de tu negocio. ¡Explora y disfruta de esta nueva experiencia digital.
+### En esta parte de nuestro proyecto, nos enfocamos en crear una arquitectura robusta y eficiente que respalde la funcionalidad y el rendimiento de RollingMarket. Nuestro objetivo es proporcionar una base sólida para gestionar y coordinar las operaciones internas de tu negocio de manera efectiva. Utilizando de herramientas poderosas y una estructura bien diseñada, buscamos optimizar los procesos y mejorar la colaboración entre los diferentes componentes del sistema que hicimos.
 
-<p align="center"><img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/FotoPresentacion.png"/></p> 
+<p align="center"><img src=""/></p> 
 
 </div>
 
@@ -43,7 +43,7 @@
   <img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/4ClonandoRepo-ezgif.com-resize.gif"></img>
 
   
-  #### 6. ¡Ya casi estamos! Una vez clonado nuestro proyecto, debes ingresar el comando "**npm i**" en la terminal del VisualStudio, de esta forma instalas todos los paquetes y librerias necesari@s para utilizar nuestro sistema.
+  #### 5. ¡Ya casi estamos! Una vez clonado nuestro proyecto, debes ingresar el comando "**npm i**" en la terminal del VisualStudio, de esta forma instalas todos los paquetes y librerias necesari@s para utilizar nuestro sistema.(Recordá escribir el comando "npm run dev" para ejectura el proyecto")
 
   <img src="https://github.com/alamodeg/rollingMarket/blob/feat/readMe/src/assets/img/gifREADME/6InstalandoNPM-ezgif.com-resize.gif"></img>
 
@@ -56,9 +56,6 @@ _Nuestro deploy_:
 ## Construido con 🛠️  <a name="tecnologias"></a>
 
 <div align="center">
-	<img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/>
-	<img width="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/>
-	<img width="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap"/>
 	<img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/>
 	<img width="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/>
 	<img width="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
