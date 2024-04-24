@@ -10,9 +10,8 @@ mongoose.connection.on("connected",()=>{
   console.log("Conectado a la base de datos de MongoDB")
 
 })
+
 mongoose.connection.on("error",(error)=>{
-  console.log("error")
+
+  console.log("error");
 })
-
-
-

@@ -1,8 +1,10 @@
 import { ProductModel } from "../models/Product.js"
+import jwt from "jsonwebtoken";
+
 
 export async function GetAllProducts  (req, res)  {
   try {
-    
+
     const products = await ProductModel.find()
     return res.status(200).json(products)
 
@@ -41,7 +43,7 @@ export async function GetProductByCategory (req, res)  {
 export async function GetProductById (req, res)  {
   const { id } = req.params
   try {
-    
+
     const product = await ProductModel.find({_id:id})
     return res.status(200).json(product)
 
