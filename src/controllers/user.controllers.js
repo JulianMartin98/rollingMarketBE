@@ -21,7 +21,6 @@ export const LoginUser = async (req, res) => {
 
   try {
     const { email, password } = req.body;
-    console.log(email,password,"ESTE ES EL EMAIL Y PASSWORD");
     if (!email || !password) {
 
       return res.status(400).json({ message: "No se aceptan campos vacíos" });
@@ -29,14 +28,12 @@ export const LoginUser = async (req, res) => {
 
 
     const user = await UserModel.findOne({ email });
-    console.log(user,"ESTE ES EL EMAIL Y PASSWORD");
     if (!user) {
       return res.status(400).json({ message: "Usuario o Contraseña no válido." });
     }
 
 
     const validPassword = await bcrypt.compare(password, user.password);
-    console.log(validPassword,"ESTE ES EL EMAIL Y PASSWORD");
 
     if (!validPassword) {
       return res.status(400).json({ message: "Usuario o Contraseña no válido." });
@@ -55,8 +52,7 @@ export const LoginUser = async (req, res) => {
       expiresIn: "1h"
     });
 
-    res.json({ message: "Su Token es el siguiente:", token });
-    res.header("Authorization", `Bearer ${token}`)
+    res.status(200).json({ token });
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
   }
