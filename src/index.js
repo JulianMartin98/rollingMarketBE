@@ -18,7 +18,7 @@ app.listen(PORT, async()=>{
 console.log(`La app esta escuchando el puerto ${PORT}`)
 })
 
-
+//Previo al merge
 // app.get("/", async(req,res)=>{
 //   res.send("bienvenido a la API de productos")
 // })
