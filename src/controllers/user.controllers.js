@@ -52,8 +52,7 @@ export const LoginUser = async (req, res) => {
       expiresIn: "1h"
     });
 
-    res.json({ message: "Su Token es el siguiente:", token });
-    res.header("authorization", ` ${token}`)
+    res.json({ token });
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
   }
