@@ -53,7 +53,7 @@ export const LoginUser = async (req, res) => {
     });
 
     res.json({ message: "Su Token es el siguiente:", token });
-    res.header("Authorization", `Bearer ${token}`)
+    res.header("authorization", ` ${token}`)
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
   }
