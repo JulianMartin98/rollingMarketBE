@@ -18,6 +18,7 @@ const comprobarJWT = (req, res, next) => {
             } else {
                 return res.status(401).json({ message: "No tiene los permisos necesarios para acceder a esta ruta" });
             }
+            
         });
     } catch (error) {
         return res.status(500).json({ message: "Error interno del servidor" });
