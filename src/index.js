@@ -1,26 +1,28 @@
 import express from 'express';
+import { PORT } from './config/config.js';
 import morgan from 'morgan';
 import cors from 'cors'
-// import { PORT } from './config/config.js';
-// import TestRoutes from './routes/test.routes.js'
+import "./db/db_connection.js"
+import productroute from './routes/product.routes.js'
+import userroute from './routes/user.routes.js'
+import privateRouter from "./routes/private.routes.js"
+import comprobarJWT from "./middlewares/verifyJWT.js";
+
+
 
 const app = express()
 
+app.use(express.json());
 app.use(morgan("dev")) //da mas informacion de la solicitud.
 app.use(cors()) //para que no revoten las peticiones.
 
-// app.use(TestRoutes)
+
+app.use(productroute);
+app.use(userroute);
+app.use(privateRouter);  //enviar antes de los productos y usuarios para proteger rutas?
 
 
 
-// app.listen(PORT, async()=>{
-//   console.log("La app esta escucnado el puerto PORT")
-
-// })
-// app.listen(4000, async()=>{
-//   console.log("La app esta escuchando el puerto 4000")
-// })
-
-// app.get("/", async(req,res)=>{
-//   res.send("Hello World")
-// })
+app.listen(PORT, async () => {
+  console.log("La app está escuchando en el puertoo" + " " + PORT)
+});
