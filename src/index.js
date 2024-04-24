@@ -19,6 +19,6 @@ console.log(`La app esta escuchando el puerto ${PORT}`)
 })
 
 
-app.get("/", async(req,res)=>{
-  res.send("bienvenido a la API de productos")
-})
+// app.get("/", async(req,res)=>{
+//   res.send("bienvenido a la API de productos")
+// })
