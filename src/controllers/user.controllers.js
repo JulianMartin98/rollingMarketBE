@@ -2,22 +2,8 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { UserModel } from "../models/userModel.js";
 
-// export async function GetAllUsers(req, res) {
-//   try {
-//     const users = await UserModel.find();
-//     return res.status(200).json(users);
-//   } catch (error) {
-//     return res.status(500).json({ message: error.message });
-//   }
-// }
 
 export const GetAllUsers = async (req, res) => {
-
-  if (req.method !== "GET") {
-
-    return res.status(405).json({ message: "Metodo no permitido" });
-
-  }
 
   try {
 
@@ -35,6 +21,7 @@ export const LoginUser = async (req, res) => {
 
   try {
     const { email, password } = req.body;
+    console.log(email,password,"ESTE ES EL EMAIL Y PASSWORD");
     if (!email || !password) {
 
       return res.status(400).json({ message: "No se aceptan campos vacíos" });
@@ -42,13 +29,14 @@ export const LoginUser = async (req, res) => {
 
 
     const user = await UserModel.findOne({ email });
-
+    console.log(user,"ESTE ES EL EMAIL Y PASSWORD");
     if (!user) {
       return res.status(400).json({ message: "Usuario o Contraseña no válido." });
     }
 
 
     const validPassword = await bcrypt.compare(password, user.password);
+    console.log(validPassword,"ESTE ES EL EMAIL Y PASSWORD");
 
     if (!validPassword) {
       return res.status(400).json({ message: "Usuario o Contraseña no válido." });
