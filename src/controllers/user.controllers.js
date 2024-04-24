@@ -2,49 +2,73 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { UserModel } from "../models/userModel.js";
 
-export async function GetAllUsers(req, res) {
-  try {
-    const users = await UserModel.find();
-    return res.status(200).json(users);
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
+// export async function GetAllUsers(req, res) {
+//   try {
+//     const users = await UserModel.find();
+//     return res.status(200).json(users);
+//   } catch (error) {
+//     return res.status(500).json({ message: error.message });
+//   }
+// }
+
+export const GetAllUsers = async (req, res) => {
+
+  if (req.method !== "GET") {
+
+    return res.status(405).json({ message: "Metodo no permitido" });
+
   }
-}
+
+  try {
+
+    const users = await UserModel.find();
+    res.status(200).json({ users, mensaje: "Usuarios Encontrados en la base de datos" });
+  } 
+  catch (error) {
+
+    res.status(500).json({ message: "Error en el servidor" });
+
+  }
+};
 
 export const LoginUser = async (req, res) => {
 
   try {
-    const {email, password} = req.body;
+    const { email, password } = req.body;
     if (!email || !password) {
 
-      return res.status(400).json({ message: "No se aceptan campos vacíos"});
+      return res.status(400).json({ message: "No se aceptan campos vacíos" });
     }
-    const user = await UserModel.findOne({email});
+
+
+    const user = await UserModel.findOne({ email });
 
     if (!user) {
-      return res.status(400).json({ message:"Usuario o Contraseña no válido." });
+      return res.status(400).json({ message: "Usuario o Contraseña no válido." });
     }
+
+
     const validPassword = await bcrypt.compare(password, user.password);
 
     if (!validPassword) {
       return res.status(400).json({ message: "Usuario o Contraseña no válido." });
     }
 
+
     const token = jwt.sign({
 
-      id:user._id,
-      email:user.email,
-      name:user.name,
-      surname:user.surname,
-      rol:user.rol
+      id: user._id,
+      email: user.email,
+      name: user.name,
+      surname: user.surname,
+      rol: user.rol
     },
-
-    process.env.JWT_SECRET, {
+      process.env.JWT_SECRET, {
       expiresIn: "1h"
-      });
+    });
 
-      res.json({ message: "Su Token es el siguiente:", token });
-    
+    res.json({ message: "Su Token es el siguiente:", token });
+    res.header("Authorization", `Bearer ${token}`)
   } catch (error) {
     return res.status(500).json({ message: "Falla en el servidor." });
   }
@@ -61,6 +85,7 @@ export const CreateUser = async (req, res) => {
     }
 
     const hashedPassword = await bcrypt.hash(password, 12);
+
     const newUser = await UserModel.create({
       name,
       surname,

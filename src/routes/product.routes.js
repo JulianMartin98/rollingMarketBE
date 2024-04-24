@@ -4,11 +4,11 @@ import comprobarJWT from '../middlewares/verifyJWT.js';
 
 const router = Router()
 
-router.get("/productos",comprobarJWT,GetAllProducts);
-router.post("/productos",comprobarJWT,CreateProduct);
-router.get("/producto/:id",comprobarJWT,GetProductById);
-router.delete("/producto/delete/:id",comprobarJWT,DeleteProduct);
-router.put("/producto/update/:id",comprobarJWT,UpdateProduct);
+router.get("/productos",GetAllProducts);
+router.post("/productos",CreateProduct);
+router.get("/producto/:id",GetProductById);
+router.delete("/producto/delete/:id",DeleteProduct);
+router.put("/producto/update/:id",UpdateProduct);
 
 
 
