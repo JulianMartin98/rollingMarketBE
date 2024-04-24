@@ -18,7 +18,7 @@ const productSchema = new Schema(
 		category: {
 			type: String,
 			required: [true, "The field category is required"],
-			enum : ["Bebidas", "Herramientas", "Limpieza", "Lacteos", "Otros"],
+			enum : ["Bebidas", "Golosinas", "Limpieza", "Lacteos", "Otros"],
 		},
 		price: {
 			type: Number,
@@ -36,10 +36,10 @@ const productSchema = new Schema(
 		},
 		image: {
 			type: String,
-			match: [
-				/^(https?:\/\/.*\.(?:png|jpg|jpeg|gif|bmp))(?:\?\S*)?$/i,
-				'Please provide a valid image URL',
-			],
+			// match: [
+			// 	/^(https?:\/\/.*\.(?:png|jpg|jpeg|gif|bmp))(?:\?\S*)?$/i,
+			// 	'Please provide a valid image URL',
+			// ],
 		},
 	},
 	{
